@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 public class ConsumerController {
 
 	@Autowired
-	RestTemplate restTemplate;
+	private RestTemplate restTemplate;
 
 	@RequestMapping(value = "/add", method = RequestMethod.GET)
 	public String add() {
