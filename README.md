@@ -1,6 +1,8 @@
 # spring-cloud-demo
 ## 实例项目，计算加法。
 ## 1、eureka-server项目@EnableEurekaServer
+### java -jar target/eureka-server-0.0.1.jar --spring.profiles.active=peer1
+### java -jar target/eureka-server-0.0.1.jar --spring.profiles.active=peer2
 ## 2、compute-service @EnableDiscoveryClient
 ## 3、compute-ribbon @EnableDiscoveryClient @LoadBalanced
 ## 4、config-server @EnableConfigServer
